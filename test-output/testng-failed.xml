@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.moolya.testgithub.GitHub_Testing">
+        <methods>
+          <include name="deleteRepository"/>
+          <include name="getRepository"/>
+          <include name="createRepo"/>
+          <include name="getUpdatedRepository"/>
+          <include name="updateRepository"/>
+          <include name="listRepositoriestags"/>
+          <include name="listUserRepositories"/>
+        </methods>
+      </class> <!-- com.moolya.testgithub.GitHub_Testing -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
